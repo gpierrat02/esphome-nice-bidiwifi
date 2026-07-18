@@ -116,13 +116,13 @@ class NiceBidiWiFi : public Component {
 
  protected:
   // Config
-  int rx_pin_{18};
-  int tx_pin_{21};
-  int led1_red_pin_{25};
-  int led1_green_pin_{2};
-  int led2_red_pin_{27};
-  int led2_green_pin_{26};
-  int led3_pin_{22};
+  int rx_pin_{39};
+  int tx_pin_{42};
+  int led1_red_pin_{17};
+  int led1_green_pin_{48};
+  int led2_red_pin_{8};
+  int led2_green_pin_{18};
+  int led3_pin_{2};
   T4Address hub_address_{0x50, 0x90};
 
   // Bus driver
